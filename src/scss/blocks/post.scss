@@ -1,0 +1,65 @@
+
+
+
+.post__inner {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom:150px;
+
+    @include mobile {
+        gap: 10px;
+        
+    }
+
+    @include Smail{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    
+    
+}
+
+.post__info {
+    color: #353540;
+    margin-top: 190px;
+    max-width: 100%;
+    @include tablet {
+        margin: 0;
+        max-width: 330px;
+    }
+    
+    
+}
+.post__title {
+max-width: 350px;    
+font-weight: 700;
+font-size: 48px;
+letter-spacing: 0.02em;
+margin-bottom: 50px;
+ @include mobile {
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+}
+.post__text {
+max-width: 363px;    
+font-weight: 300;
+font-size: 18px;
+line-height: 189%;
+letter-spacing: 0.02em;
+margin-bottom: 70px;
+color: #5d5d61;
+
+@include mobile {
+    margin-bottom: 40px;
+}
+}
+
+
+.video-thumbnail{
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}

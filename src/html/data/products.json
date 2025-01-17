@@ -1,0 +1,54 @@
+[
+  { 
+    "img_foto1": "./img/koma.png",
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.",
+    "img_foto": "./img/logo__star.png",
+    "name": "Maria Jannat",
+    "position": "Content Writer",
+    "img_star": "./img/star.png"
+  },
+  {  
+    "img_foto1": "./img/Vector11.svg", 
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "img_foto": "./img/logo__star2.png",
+    "name": "Mithela",
+    "position": "UI Designer",
+    "img_star": "./img/star.png"
+
+  },
+
+  {  
+    "img_foto1": "./img/koma.png",
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.",
+    "img_foto": "./img/logo__star3.png",
+    "name": "Adam",
+    "position": "Developer",
+    "img_star": "./img/star.png"
+  },
+
+  {  
+    "img_foto1": "./img/koma.png",
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.",
+    "img_foto": "./img/logo__star.png",
+    "name": "John Smith",
+    "position": "Marketing Manager",
+    "img_star": "./img/star.png"
+  },
+  { 
+    "img_foto1": "./img/koma.png",
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.",
+    "img_foto": "./img/logo__star.png",
+    "name": "Maria Jannat",
+    "position": "Content Writer",
+    "img_star": "./img/star.png"
+  },
+  {  
+    "img_foto1": "./img/Vector11.svg", 
+    "carts__title": "Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "img_foto": "./img/logo__star2.png",
+    "name": "Mithela",
+    "position": "UI Designer",
+    "img_star": "./img/star.png"
+
+  }
+]

@@ -1,0 +1,72 @@
+
+
+
+.registration__inner {
+    margin-bottom: 361px;
+    margin-top: 371px;
+
+    display: flex;
+    align-items: center;
+    gap: 85px;
+
+    @include tablet {
+      margin-bottom: 167px;
+        margin-top: 198px;
+    }
+
+    @include mobile {
+      gap: 25px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+  
+    }
+
+    @include Smail{
+      padding: 0 20px;
+      flex-direction: column-reverse
+      
+      
+    }
+}
+
+
+
+.registration_title {
+  color: #353540;
+  
+  font-family: "Georgia-Bold", sans-serif;
+  font-size: 48px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  margin-bottom: 50px;
+
+  @include tablet {
+      font-size: 30px;
+  }
+}
+.registration__text {
+  margin-bottom: 50px;
+  font-family: "Axiforma-Book", sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  max-width: 325px;
+  color: #5d5d61;
+
+  
+  @include tablet {
+    font-size: 18px;
+    max-width: 100%;
+}
+
+
+}
+
+.bak__foto-4{
+  @include Smail{
+    width: 80%;
+    
+    
+  }
+}

@@ -1,0 +1,94 @@
+.post_subscribe {
+    
+    background-image: url("../../img/bak7.png");
+    margin-top: 150px;
+    margin-bottom: 175px;
+}
+
+.post__info2 {
+    background-color: #EE4F3C;
+    border-radius: 20px;
+    padding: 85px 0 90px 150px;
+    background-image: 
+        url("../../img/post%20bak.png"), 
+        url("../../img/krabka.png"); /* Два фонових зображення */
+    background-repeat: no-repeat, no-repeat; /* Відсутність повторення для обох */
+    background-size: auto, auto; /* Розмір для кожного зображення */
+    background-position: right top, left bottom;
+    @include tablet {
+        padding: 85px 10px 150px 65px;
+    }
+    @include mobile {
+        padding-left: 20px;
+    }
+
+}
+
+.search-bar1{
+    max-width: 770px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px; 
+    
+
+    @include mobile {
+        max-width: 512px;
+        margin-left: 0;
+    }
+
+}
+
+
+.input-job-title{
+    margin-left: 30px;
+    @include mobile {
+        margin-left: 6px;
+        font-size: 13px;
+    }
+   
+}
+
+.post__title2 {
+    max-width: 525px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 50px;
+    @include mobile {
+        margin-left: 33px;
+        font-size: 30px;
+
+    }
+}
+.search-button1 {
+    width: 220px;
+    height: 60px;
+	background-color: #ff5a5f;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    margin-right: 5px;
+    
+
+    &:hover{
+        transition: background-color 0.3s;
+        background-color: #f90009;
+    }
+    @include mobile {
+        width: 115px;
+        font-size: 12px;
+        gap: 6px;
+
+    }
+}

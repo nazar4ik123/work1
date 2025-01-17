@@ -1,0 +1,102 @@
+
+.carts{
+  margin-left: 42px;
+
+  &:hover{
+    
+    filter: hue-rotate(90deg);
+    
+    
+  }
+}
+
+
+
+.carts__inner {
+  background: #fff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  box-shadow: 0px 50px 70px 0px rgba(238, 238, 238, 1);
+  max-width: 570px;
+
+
+  @media (max-width: 400px) {
+    max-width: 326px;
+
+  }
+  
+ 
+  
+  
+  
+}
+.carts__info {
+    padding: 54px 24px 57px 36px;
+
+    
+  
+}
+.carts__title {
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  max-width: 500px;
+  color: #5d5d61;
+
+  @include mobile {
+    font-size: 11px;
+  }
+}
+
+.carts__foto{
+
+  @include mobile {
+    max-width: 72%;
+      
+  }
+ 
+
+
+}
+
+
+.cart__info {
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
+    align-items: center;
+    padding-bottom: 54px;
+
+    @include mobile {
+      padding-left: 25px;
+      align-items: center;
+      padding-bottom: 37px;
+      gap: 0;
+    }
+}
+
+.position {
+    padding-top:5px ;
+    padding-bottom:15px ;
+}
+.block__cart{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.swiper-wrapper{
+   padding-bottom: 79px;
+}
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  width: 20px;
+  height: 20px;
+  background-color: #EE4F3C;
+}
+

@@ -1,0 +1,131 @@
+
+.job{
+  background-image: url(../../img/bak3.png);
+  background-color: #232443;
+  
+
+}
+
+.job__iner{
+    display: flex;
+    gap: 30px;
+  
+    @include tablet {
+        flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+
+.job__title {
+  font-size: 48px;
+  line-height: 75px;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  margin: 95px 0 50px;
+  color: #fff;
+}
+.job__block {
+ 
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding:20px 20px;
+  
+
+  &:hover{
+    
+    background: rgba(238, 79, 60, 0.5);
+    color: #fff;
+    .btn {
+        background: rgba(255, 255, 255, 0.1);;
+      }
+   .job__text{
+    color: #F8F8F8;
+   }  
+   
+   @include mobile {
+    padding:20px 20px;
+   }
+  }
+  
+
+
+}
+
+
+.job__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+.text__logo {
+    padding-right: 102px;
+    padding-left: 15px;
+}
+
+
+.block__title{
+    padding: 20px 0px 12px;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+.job__text{
+    color: #5D5D61;
+}
+
+.pay__block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 36px;
+
+  
+}
+.btn {
+  background: #f5f5f5;
+  border-radius: 5px;
+  width: 99.98px;
+  height: 35px;
+  &:hover{
+    color: #000;
+}
+}
+.price {
+    padding-left: 19px;
+    
+}
+
+
+.skrol {
+    &:hover{
+       color:  rgba(238, 79, 60, 0.5);
+
+       }
+    margin: 72px 0 78px;
+    display: flex;
+    justify-content: center
+}
+
+.skrol__inner{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    
+}
+.text__skrol {
+    
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 600; 
+    color: #fff;
+
+    &:hover{
+        color:  rgba(238, 79, 60, 0.5);
+ 
+        }
+}

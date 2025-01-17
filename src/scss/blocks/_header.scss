@@ -1,0 +1,166 @@
+
+
+  
+
+  
+  /* Секція Hero */
+  .hero__contant{
+	display: flex;
+	gap: 180px;
+    
+	@include tablet {
+		justify-content: space-between;
+		gap: 10px;
+	}
+	
+    @include Smail {
+		flex-wrap: wrap;
+		margin:  40px 0;
+		row-gap: 45px;
+	}
+
+
+  }
+
+  
+  /* Ліва частина */
+  .hero__text {
+
+	margin-top: 116px;
+	max-width: 658px;
+
+	@include tablet {
+		width: 50%;
+	}
+
+	@include mobile {
+		margin-left: 10px;
+		margin-top: 0;
+		width: 100%;
+	}
+  }
+  
+  .hero__text h1 {
+	font-size: 48px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 20px;
+	max-width: 620px;
+	@include mobile {
+		font-size: 30px;
+	}
+  }
+  
+  .hero__text p {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+	color: #666;
+
+	
+  }
+
+  
+  /* Стилі для пошукового рядка */
+/* Базовий стиль */
+.search-bar {
+	
+	height: 62px;
+	display: flex; /* Гнучке вирівнювання в рядок */
+	justify-content: space-between;
+	gap: 10px; /* Відстань між елементами */
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+
+	@include tablet {
+	flex-direction: column;
+	height: auto;
+	max-width: 320px;
+	}
+
+	@include Smail{
+	margin: 0 auto;	
+	}
+  }
+
+  .bar__info{
+	display: flex;
+	align-items: center;
+  }
+  
+  .icon {
+	width: 20px;
+	height: 20px;
+  }
+  
+  .input,
+  .input__location {
+	flex: 1; /* Поля вводу розтягуються рівномірно */
+	padding: 10px;
+	
+	border-radius: 4px;
+	font-size: 16px;
+  }
+  
+  .search-button {
+	min-width: 181px;
+	padding: 10px 20px;
+	background-color: #EE4F3C;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	white-space: nowrap; /* Запобігає переносу тексту */
+  }
+  
+  .search-button:hover {
+	background-color: #ff0202;
+  }
+
+  .hero__image{
+	@include Smail{
+		width: 50%;
+		margin: 0 auto;
+	}
+  }
+  
+  /* Адаптивність для планшетів (до 768px) */
+  @media (max-width: 768px) {
+	.search-bar {
+	  flex-direction: column; /* Елементи розташовуються вертикально */
+	  gap: 15px; /* Збільшуємо проміжки між елементами */
+	  
+	}
+  
+	.input,
+    .input__location {
+	  width: 100%; /* Поля займають всю ширину */
+	}
+  
+	.search-button {
+	  width: 100%; /* Кнопка займає всю ширину */
+	}
+  }
+  
+  /* Адаптивність для мобільних пристроїв (до 480px) */
+  @media (max-width: 480px) {
+	.search-bar {
+	  padding: 5px;
+	}
+  
+	.input {
+	  font-size: 14px; /* Зменшуємо текст для маленьких екранів */
+	}
+  
+	.search-button {
+	  font-size: 14px; /* Зменшений текст кнопки */
+	  padding: 8px 15px;
+	}
+  }
+  
+  
+  
+  
+ 

@@ -1,0 +1,80 @@
+.nav__bar__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.navbar {
+    
+    padding: 15px 0;
+}
+  
+  /* Логотип */
+  .logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logo span {
+    color: #ff5a5f;
+  }
+  
+  /* Посилання меню */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+
+    @include mobile {
+        display: none;
+    }
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #333;
+  }
+  
+  /* Кнопка */
+  .cta-button .button {
+    text-decoration: none;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 16px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    @include mobile {
+      padding: 16px 20px;
+    }
+   
+  }
+
+  
+   
+  .cta-btn
+ {
+    
+    @include mobile {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 10px;
+    }
+   
+  }
+  
+  .cta-button .button:hover {
+    background-color: #e04c4f;
+  }
+  
