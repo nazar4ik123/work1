@@ -1,7 +1,7 @@
- website layout JOBPLY
+ ## website layout JOBPLY
  
--html
--scss
--gulp
+- html,
+- scss,
+- gulp
 
-https://nazar4ik123.github.io/work1/
+[SEE ALL](https://nazar4ik123.github.io/work1/)
